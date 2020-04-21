@@ -1,9 +1,9 @@
-# VCR Legion Core 2.0
-VS 2019 x64
-boost 1.60
-openssl 1.0
+# VCR Legion Core 2.0 modified by Nathalis
 
-cmake settings libeay32MDd.lib libeay32MD.lib  ssleay32MDd.lib ssleay32MD.lib
+linux compilation dependencies (downgraded)
+
+openssl-1.0.0g
+boost_1_54_0
 
 Legion scripts:
 
@@ -113,3 +113,5 @@ Class spells completed ~90% (artifact spells included)
 - shaman
 - warlock
 - warrior
+
+COMPILATION INSTRUCTIOS: (Comming Soon)
