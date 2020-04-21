@@ -3804,7 +3804,7 @@ class spell_item_leystone_buoy : public AuraScript
             return;
 
         if (caster->IsInWater())
-            caster->GetMotionMaster()->MovePoint(1, caster->GetPositionX(), caster->GetPositionY(), caster->GetWaterOrGroundLevel(caster->GetPositionX(), caster->GetPositionY(), caster->GetPositionZ(), false, true));
+            caster->GetMotionMaster()->MovePoint(1, caster->GetPositionX(), caster->GetPositionY(), caster->GetWaterOrGroundLevel(caster->GetPositionX(), caster->GetPositionY(), caster->GetPositionZ()));
     }
 
     void Register() override
