@@ -22,6 +22,7 @@ addons:
       - libreadline6-dev
       - zlib1g-dev
       - libbz2-dev
+      - libasio-dev
 
 services:
   - mysql
